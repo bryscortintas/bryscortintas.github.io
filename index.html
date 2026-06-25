@@ -1,32 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Bryscor Tintas | Qualidade que pinta resultados</title>
-<meta name="description" content="Bryscor Tintas: tintas, massas, textura, grafiato e seladores em Grajaú - Maranhão." />
-<style>
-:root{--azul:#004aad;--azul2:#062b63;--amarelo:#f6c400;--escuro:#1e293b;--claro:#f8fafc;--verde:#22c55e}*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--escuro);background:#fff}a{text-decoration:none;color:inherit}.top{background:#111827;color:#fff;font-size:14px;padding:10px 6%;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.nav{position:sticky;top:0;z-index:20;background:#fff;padding:18px 6%;display:flex;align-items:center;justify-content:space-between;box-shadow:0 2px 15px #0001}.logo{font-weight:900;font-size:28px;letter-spacing:2px;color:var(--azul)}.logo span{color:var(--amarelo)}.menu{display:flex;gap:24px;font-weight:700}.hero{min-height:560px;background:linear-gradient(135deg,#003b8f,#071f49 65%,#111827);color:white;display:grid;place-items:center;text-align:center;padding:70px 6%;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;width:500px;height:500px;border-radius:50%;background:#ffffff12;right:-120px;top:-120px}.hero h1{font-size:clamp(42px,7vw,86px);margin:0;text-shadow:0 5px 25px #0008;letter-spacing:3px}.hero p{font-size:24px;font-weight:800;margin:20px 0}.btn{display:inline-block;background:var(--amarelo);color:#1f2937;padding:16px 28px;border-radius:40px;font-weight:900;box-shadow:0 8px 20px #0003}.section{padding:70px 6%}.title{text-align:center;margin-bottom:42px}.title h2{font-size:38px;color:var(--azul);margin:0 0 10px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}.card{background:white;border-radius:22px;padding:26px;box-shadow:0 10px 30px #00000012;border:1px solid #e5e7eb;transition:.2s}.card:hover{transform:translateY(-5px)}.ico{font-size:42px}.card h3{color:var(--azul);margin-bottom:8px}.badge{display:inline-block;background:#eaf2ff;color:var(--azul);padding:7px 12px;border-radius:20px;font-size:13px;font-weight:800}.colors{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:18px}.color{height:95px;border-radius:18px;color:white;font-weight:900;display:flex;align-items:end;padding:14px;text-shadow:0 2px 5px #0008;box-shadow:0 8px 20px #0002}.about{background:#f1f5f9}.aboutbox{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center}.panel{background:linear-gradient(135deg,var(--azul),#0ea5e9);color:#fff;border-radius:28px;padding:36px;box-shadow:0 10px 30px #0002}.list{display:grid;gap:14px}.item{background:#fff;padding:16px;border-radius:14px;border-left:6px solid var(--amarelo);font-weight:700}.contact{background:#061a3a;color:#fff}.contact .card{color:var(--escuro)}.whats{position:fixed;right:20px;bottom:20px;background:#25d366;color:white;padding:16px 22px;border-radius:40px;font-weight:900;box-shadow:0 10px 30px #0004;z-index:50}footer{text-align:center;background:#111827;color:#fff;padding:28px 6%}@media(max-width:760px){.menu{font-size:14px;gap:10px}.aboutbox{grid-template-columns:1fr}.top{font-size:12px}.nav{padding:14px 4%}.logo{font-size:20px}.section{padding:50px 5%}}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bryscor Tintas | Site Oficial</title>
+  <meta name="description" content="Bryscor Tintas: tintas, seladores, massas, texturas e grafiato em Grajaú - Maranhão. Qualidade que pinta resultados." />
+  <style>
+    :root{--azul:#004aad;--azul2:#061d55;--amarelo:#f6c21a;--verde:#21b45b;--claro:#f5f7fb;--escuro:#111827;--cinza:#6b7280}
+    *{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--escuro);background:#fff;line-height:1.5} a{text-decoration:none;color:inherit} img{max-width:100%}
+    .top{background:#111827;color:#fff;font-size:14px;padding:8px 6%;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.top span{opacity:.95}
+    header{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid #e5e7eb;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;gap:20px}.logo{font-weight:900;font-size:28px;letter-spacing:2px;color:var(--azul)}.logo b{color:var(--amarelo)} nav{display:flex;gap:22px;font-weight:700} nav a:hover{color:var(--azul)}
+    .hero{background:linear-gradient(135deg,var(--azul),var(--azul2));color:#fff;text-align:center;padding:95px 6% 110px;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;inset:-80px;background:radial-gradient(circle at 25% 20%,rgba(255,255,255,.18),transparent 32%),radial-gradient(circle at 80% 10%,rgba(246,194,26,.18),transparent 28%)}.hero>*{position:relative}.hero h1{font-size:56px;margin:0 0 12px;letter-spacing:2px}.hero p{font-size:23px;margin:0 0 28px;font-weight:700}.btn{display:inline-block;background:var(--amarelo);color:#1f2937;padding:14px 28px;border-radius:999px;font-weight:900;box-shadow:0 8px 20px rgba(0,0,0,.18)}.btn2{background:#fff;color:var(--azul);margin-left:8px}
+    section{padding:70px 6%}.section-title{text-align:center;margin-bottom:38px}.section-title h2{font-size:38px;margin:0;color:var(--azul)}.section-title p{color:var(--cinza);font-size:18px;margin:8px 0 0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{background:#fff;border:1px solid #e5e7eb;border-radius:18px;padding:26px;box-shadow:0 10px 30px rgba(0,0,0,.06);transition:.2s}.card:hover{transform:translateY(-4px);box-shadow:0 14px 35px rgba(0,0,0,.1)}.icon{font-size:38px}.card h3{color:var(--azul);margin:10px 0 8px}.card p{color:#4b5563;margin:0}.tag{display:inline-block;margin-top:14px;background:#eaf2ff;color:var(--azul);padding:6px 10px;border-radius:999px;font-size:13px;font-weight:700}
+    .about{background:var(--claro)}.about-wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:center}.panel{background:linear-gradient(135deg,var(--azul),#0ea5e9);color:#fff;border-radius:24px;padding:34px;box-shadow:0 18px 45px rgba(0,74,173,.22)}.panel h2{font-size:36px;margin:0 0 10px}.checks{display:grid;gap:12px;margin-top:20px}.checks div{background:rgba(255,255,255,.12);padding:12px 14px;border-radius:12px}.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.stat{background:#fff;border-radius:18px;padding:24px;border:1px solid #e5e7eb}.stat b{font-size:32px;color:var(--azul)}
+    .colors{display:grid;grid-template-columns:repeat(6,1fr);gap:16px}.color{height:95px;border-radius:16px;display:flex;align-items:end;padding:14px;color:white;font-weight:900;text-shadow:0 1px 4px rgba(0,0,0,.45);box-shadow:0 10px 20px rgba(0,0,0,.12)}
+    .cta{background:linear-gradient(135deg,#111827,#0b2b68);color:#fff;text-align:center}.cta h2{font-size:40px;margin:0 0 12px}.cta p{font-size:18px;color:#dbeafe;max-width:760px;margin:0 auto 26px}
+    .contact{display:grid;grid-template-columns:1fr 1fr;gap:24px}.contact-box{background:#fff;border:1px solid #e5e7eb;border-radius:20px;padding:28px;box-shadow:0 8px 28px rgba(0,0,0,.06)}.contact-box h3{color:var(--azul);margin-top:0}.contact-box input,.contact-box textarea{width:100%;padding:14px;margin:8px 0;border:1px solid #d1d5db;border-radius:12px;font:inherit}.contact-box button{border:0;cursor:pointer}
+    footer{background:#0f172a;color:#fff;padding:34px 6%;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.whats{position:fixed;right:22px;bottom:22px;background:#22c55e;color:#fff;padding:14px 20px;border-radius:999px;font-weight:900;box-shadow:0 10px 30px rgba(0,0,0,.25);z-index:20}
+    @media(max-width:850px){header{align-items:flex-start;flex-direction:column}.logo{font-size:23px}nav{flex-wrap:wrap}.hero h1{font-size:36px}.hero p{font-size:18px}.grid,.about-wrap,.contact{grid-template-columns:1fr}.colors{grid-template-columns:repeat(2,1fr)}.btn2{margin-left:0;margin-top:10px}.top{font-size:12px}.section-title h2{font-size:30px}}
+  </style>
 </head>
 <body>
-<div class="top"><span>📍 Grajaú - Maranhão</span><span>📞 WhatsApp: (99) 99175-6828 | CNPJ: 61.206.456/0001-05</span></div>
-<nav class="nav"><div class="logo">BRYSCOR <span>TINTAS</span></div><div class="menu"><a href="#produtos">Produtos</a><a href="#cores">Cores</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a></div></nav>
-<header class="hero"><div><h1>BRYSCOR TINTAS</h1><p>Qualidade que pinta resultados.</p><a class="btn" href="https://wa.me/5599991756828" target="_blank">Falar no WhatsApp</a></div></header>
-<section id="produtos" class="section"><div class="title"><h2>Linha de Produtos</h2><p>Soluções para pintura, acabamento e proteção de superfícies internas e externas.</p></div><div class="grid">
-<div class="card"><div class="ico">🎨</div><h3>Tinta Econômica</h3><p>Ótima opção para pintura interna com bom rendimento e custo-benefício.</p><span class="badge">Interior</span></div>
-<div class="card"><div class="ico">⭐</div><h3>Tinta Premium</h3><p>Alta cobertura, melhor acabamento e maior durabilidade.</p><span class="badge">Interior e Exterior</span></div>
-<div class="card"><div class="ico">🏠</div><h3>Tinta Standard</h3><p>Qualidade para obras, reformas e manutenção diária.</p><span class="badge">Uso geral</span></div>
-<div class="card"><div class="ico">🧱</div><h3>Tinta Piso</h3><p>Indicada para pisos cimentados e áreas de circulação.</p><span class="badge">Alta resistência</span></div>
-<div class="card"><div class="ico">🛡️</div><h3>Selador</h3><p>Prepara a parede, melhora a aderência e uniformiza a absorção.</p><span class="badge">Preparação</span></div>
-<div class="card"><div class="ico">🧰</div><h3>Massa Corrida</h3><p>Correção e nivelamento de superfícies internas.</p><span class="badge">Interior</span></div>
-<div class="card"><div class="ico">🏗️</div><h3>Massa Acrílica</h3><p>Ideal para áreas internas e externas, com maior resistência.</p><span class="badge">Interior e Exterior</span></div>
-<div class="card"><div class="ico">🪨</div><h3>Textura e Grafiato</h3><p>Acabamento decorativo moderno, resistente e valorizado.</p><span class="badge">Decorativo</span></div>
-</div></section>
-<section id="cores" class="section"><div class="title"><h2>Catálogo de Cores</h2><p>Cores para renovar ambientes e valorizar cada projeto.</p></div><div class="colors"><div class="color" style="background:#0057b8">Azul Bryscor</div><div class="color" style="background:#f6c400;color:#333;text-shadow:none">Amarelo Ouro</div><div class="color" style="background:#e63946">Vermelho</div><div class="color" style="background:#16a085">Verde</div><div class="color" style="background:#d6a46a">Areia</div><div class="color" style="background:#7d6b91">Uva</div><div class="color" style="background:#f5f5dc;color:#333;text-shadow:none">Palha</div><div class="color" style="background:#9ca3af">Cinza</div></div></section>
-<section id="sobre" class="section about"><div class="aboutbox"><div class="panel"><h2>Sobre a Bryscor</h2><p>A Bryscor Indústria e Comércio de Tinta Ltda. nasceu em Grajaú - Maranhão com o compromisso de oferecer produtos de qualidade para pintura, acabamento e proteção.</p><p><strong>Qualidade que pinta resultados.</strong></p></div><div class="list"><div class="item">✅ Fabricação e comércio de tintas</div><div class="item">✅ Produtos para obras, reformas e revendas</div><div class="item">✅ Atendimento rápido via WhatsApp</div><div class="item">✅ Marca maranhense em crescimento</div></div></div></section>
-<section id="contato" class="section contact"><div class="title"><h2 style="color:white">Fale com a Bryscor</h2><p>Solicite orçamento, catálogo ou informações comerciais.</p></div><div class="grid"><div class="card"><h3>WhatsApp</h3><p>(99) 99175-6828</p><a class="btn" href="https://wa.me/5599991756828" target="_blank">Chamar agora</a></div><div class="card"><h3>Empresa</h3><p>Bryscor Indústria e Comércio de Tinta Ltda.</p><p>CNPJ: 61.206.456/0001-05</p></div><div class="card"><h3>Localização</h3><p>Grajaú - Maranhão</p><p>Atendimento para clientes, obras e revendedores.</p></div></div></section>
-<a class="whats" href="https://wa.me/5599991756828" target="_blank">WhatsApp</a>
-<footer>© 2026 Bryscor Tintas - Qualidade que pinta resultados.</footer>
+  <div class="top"><span>📍 Grajaú - Maranhão</span><span>☎ WhatsApp: (99) 99175-6828 | CNPJ: 61.206.456/0001-05</span></div>
+  <header>
+    <div class="logo">BRYSCOR <b>TINTAS</b></div>
+    <nav><a href="#produtos">Produtos</a><a href="#cores">Cores</a><a href="#sobre">Sobre</a><a href="#revendedor">Revendedor</a><a href="#contato">Contato</a></nav>
+  </header>
+  <main>
+    <section class="hero">
+      <h1>BRYSCOR TINTAS</h1>
+      <p>Qualidade que pinta resultados.</p>
+      <a class="btn" href="https://wa.me/5599991756828" target="_blank">Falar no WhatsApp</a>
+      <a class="btn btn2" href="#produtos">Ver produtos</a>
+    </section>
+
+    <section id="produtos">
+      <div class="section-title"><h2>Linha Completa de Produtos</h2><p>Soluções para pintura, proteção e acabamento profissional.</p></div>
+      <div class="grid">
+        <div class="card"><div class="icon">🎨</div><h3>Tinta Econômica</h3><p>Ótima opção para pintura interna com bom custo-benefício.</p><span class="tag">Interior</span></div>
+        <div class="card"><div class="icon">⭐</div><h3>Tinta Premium</h3><p>Alta cobertura, acabamento superior e maior durabilidade.</p><span class="tag">Interior e Exterior</span></div>
+        <div class="card"><div class="icon">🏠</div><h3>Tinta Standard</h3><p>Qualidade equilibrada para obras e reformas do dia a dia.</p><span class="tag">Bom rendimento</span></div>
+        <div class="card"><div class="icon">🧱</div><h3>Tinta Piso</h3><p>Indicada para pisos cimentados, áreas externas e superfícies resistentes.</p><span class="tag">Alta resistência</span></div>
+        <div class="card"><div class="icon">🛡️</div><h3>Selador</h3><p>Prepara a parede, melhora a aderência e ajuda no rendimento da tinta.</p><span class="tag">Preparação</span></div>
+        <div class="card"><div class="icon">🧰</div><h3>Massa Corrida</h3><p>Para nivelamento e acabamento liso em paredes internas.</p><span class="tag">Acabamento interno</span></div>
+        <div class="card"><div class="icon">🏗️</div><h3>Massa Acrílica</h3><p>Ideal para áreas internas e externas, com maior resistência.</p><span class="tag">Interior e Exterior</span></div>
+        <div class="card"><div class="icon">✨</div><h3>Textura</h3><p>Acabamento decorativo para valorizar fachadas e ambientes.</p><span class="tag">Decorativo</span></div>
+        <div class="card"><div class="icon">🪨</div><h3>Grafiato</h3><p>Revestimento texturizado com visual moderno e proteção extra.</p><span class="tag">Fachadas</span></div>
+      </div>
+    </section>
+
+    <section id="cores" class="about">
+      <div class="section-title"><h2>Catálogo de Cores</h2><p>Cores para renovar ambientes e valorizar cada projeto.</p></div>
+      <div class="colors">
+        <div class="color" style="background:#0057b8">Azul Bryscor</div><div class="color" style="background:#f5c400;color:#1f2937;text-shadow:none">Amarelo Ouro</div><div class="color" style="background:#e84a5f">Vermelho</div><div class="color" style="background:#1abc9c">Verde</div><div class="color" style="background:#d8a46b">Areia</div><div class="color" style="background:#8e7aa9">Uva</div><div class="color" style="background:#f2e7cf;color:#1f2937;text-shadow:none">Palha</div><div class="color" style="background:#b9c4c9">Cinza</div><div class="color" style="background:#ffffff;color:#1f2937;text-shadow:none;border:1px solid #ddd">Branco Neve</div><div class="color" style="background:#7b4a2f">Terracota</div><div class="color" style="background:#3f6b3f">Verde Folha</div><div class="color" style="background:#1f2937">Grafite</div>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <div class="about-wrap">
+        <div class="panel"><h2>Sobre a Bryscor</h2><p>A Bryscor Indústria e Comércio de Tintas Ltda. atua com foco em qualidade, cobertura e acabamento para obras, reformas e revendas.</p><div class="checks"><div>✅ Fabricação e comércio de tintas</div><div>✅ Produtos para pintura e acabamento</div><div>✅ Atendimento em Grajaú - Maranhão</div><div>✅ Marca própria com identidade regional</div></div></div>
+        <div class="stats"><div class="stat"><b>9+</b><p>Linhas de produtos</p></div><div class="stat"><b>100%</b><p>Foco em qualidade</p></div><div class="stat"><b>MA</b><p>Grajaú - Maranhão</p></div><div class="stat"><b>BR</b><p>Marca brasileira</p></div></div>
+      </div>
+    </section>
+
+    <section id="revendedor" class="cta"><h2>Seja um revendedor Bryscor</h2><p>Leve uma linha completa de tintas, massas e revestimentos para sua loja. Fale com nossa equipe comercial pelo WhatsApp.</p><a class="btn" href="https://wa.me/5599991756828?text=Tenho%20interesse%20em%20revender%20produtos%20Bryscor" target="_blank">Quero ser revendedor</a></section>
+
+    <section id="contato" class="about">
+      <div class="section-title"><h2>Contato</h2><p>Solicite orçamento, atendimento comercial ou informações técnicas.</p></div>
+      <div class="contact">
+        <div class="contact-box"><h3>Informações</h3><p><b>Empresa:</b> Bryscor Indústria e Comércio de Tintas Ltda.</p><p><b>CNPJ:</b> 61.206.456/0001-05</p><p><b>WhatsApp:</b> (99) 99175-6828</p><p><b>Cidade:</b> Grajaú - Maranhão</p><p><b>Site:</b> bryscortintas.com.br</p></div>
+        <form class="contact-box" onsubmit="enviarWhats(event)"><h3>Solicitar orçamento</h3><input id="nome" placeholder="Seu nome" required><input id="cidade" placeholder="Cidade / Estado"><textarea id="msg" rows="5" placeholder="Produto desejado ou mensagem"></textarea><button class="btn" type="submit">Enviar pelo WhatsApp</button></form>
+      </div>
+    </section>
+  </main>
+  <footer><div><b>BRYSCOR TINTAS</b><br>Qualidade que pinta resultados.</div><div>© 2026 Bryscor Tintas. Todos os direitos reservados.</div></footer>
+  <a class="whats" href="https://wa.me/5599991756828" target="_blank">WhatsApp</a>
+  <script>
+    function enviarWhats(e){e.preventDefault();const n=document.getElementById('nome').value;const c=document.getElementById('cidade').value;const m=document.getElementById('msg').value;const texto=`Olá, sou ${n}. Cidade: ${c}. Gostaria de orçamento/informações: ${m}`;window.open('https://wa.me/5599991756828?text='+encodeURIComponent(texto),'_blank')}
+  </script>
 </body>
 </html>
